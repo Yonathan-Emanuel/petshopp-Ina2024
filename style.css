@@ -141,9 +141,13 @@ body{
 }
 
 
-/* menu hamburguesa */
+/* menu - hamburguesa */
 
 @media (max-width: 667px) {
+    .navbar {
+        background-color: #440351;
+        width: 100%;
+    }
     .abrir_menu {
         display:block;
     }
@@ -741,7 +745,7 @@ body{
         flex-direction: column;
         padding: 35px 0px;
     } .form{
-        width: 90%;
+        width: 100%;
         background-color: #440351;
         text-align: center;
         border-radius: 15px;
