@@ -810,7 +810,7 @@ body{
 
 @media (max-width: 667px) {
     .footer {
-        width: 100%;
+        width: 375px;
         height: 1100px;
         padding: 30px 0px;
         text-align: center;
