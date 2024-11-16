@@ -146,7 +146,6 @@ body{
 @media (max-width: 667px) {
     .navbar {
         background-color: #440351;
-        width: 100%;
     }
     .abrir_menu {
         display:block;
@@ -714,7 +713,7 @@ body{
     background-color: #550665;
     width: 350px;
     height: 250px;
-    color: #440351;
+    color: white;
     border-radius: 10px;
     font-family: rubik;
     resize: none;
@@ -738,34 +737,39 @@ body{
     .main .contacto_main .banner img{
         width: 100%;
         margin: 60px 0px 0px;
-    }.contacto_container{
-        width: 100%;
+    } .contacto_main{
+        width: 375px;
+        background-color: #67087b;
+    }
+    .contacto_container{
+        width: 375px;
         background-color: #67087b;
         display: flex;
         flex-direction: column;
         padding: 35px 0px;
+        margin: 0;
     } .form{
-        width: 90%;
-        background-color: #440351;
+        width: 80%;
+        background-color:  #550665;
         text-align: center;
         border-radius: 15px;
         margin: auto;
         height: auto;
-        padding: 30px 0px;
+        padding: 20px 0px;
         
     } .form_contacto {
-        background-color: white;
+        background-color: #440351;
         width: 80%;
         height: 40px;
-        color: #440351;
+        color: white;
         border-radius: 10px;
         font-family: rubik;
         
     } .textarea{
-        background-color:white;
+        background-color: #550665;
         width: 80%;
         height: 150px;
-        color: #440351;
+        color: white;
         border-radius: 10px;
         font-family: rubik;
         resize: none;
