@@ -38,6 +38,7 @@ p {
     font-style: normal;
 }
 
+
 del {
         color: white;
         font-family: "Rubik", sans-serif;
@@ -99,7 +100,6 @@ body{
 }
 
 
-
 .navbar {
     background-color: #440351;
     width: 100%;
@@ -116,6 +116,7 @@ body{
     text-align: center;
 
 }.menu{
+    display: block;
     padding: 15px;
     align-content: center;
     width: 80%;
@@ -150,10 +151,21 @@ body{
     }.navbar {
         width: 100%;
         background-color: #440351;
+        display: flex;
+        justify-content: space-between;
     }
-
+    .logo img{
+        width: 30px;
+    }
     .abrir_menu {
+        width: 40px;
+        height: 35px;
         display:block;
+        margin: 15px;
+        background-color: #550665;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
     }
 
     .menu{
@@ -185,6 +197,14 @@ body{
 
     .cerrar_menu {
         display: block;
+        width: 35px;
+        height: 25px;
+        display:block;
+        margin: 15px;
+        background-color: #550665;
+        border: 1px solid white;
+        color: white;
+        border-radius: 5px;
     }
 
     .rss {
@@ -193,7 +213,10 @@ body{
   
 }
 
+
 /* fin menu hamburguesa */
+
+/*inicio */
 
 .main {
     width: 100%;
@@ -299,17 +322,60 @@ body{
     }
 }
 
+/* responsive inicio */
 
 @media (max-width: 667px) {
-    .navbar {
-    width: 375px;
-    height: 65px;
-    display: flex;
-}   .logo img{
-        width: 30px;
+    .main {
+        width: 100%;
+    } .main .container {
+        width: 100%;
+        height: 700px;
+        padding: 0;
+        margin: 0;
     }
-  
-  
+
+    .main .container .categorias{
+        width: 100%;
+        padding: 0px;
+        position: absolute;
+        top: 35%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main .container .categorias a{
+        padding: 2px;
+        margin: 2px;
+    }
+    .main .container .categorias a img{
+        width: 140px;
+        height: 138px ;
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .main .nosotros{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    } .nosotros1 {
+        width: 100%;
+        padding: 5px 10px 30px 10px;
+
+        margin: auto;
+    } .nosotros2 {
+        display: none;
+    }
+
+    .main .info{
+        width: 100%;
+        height: 200px;
+    }
+
 }
 
 
@@ -376,7 +442,8 @@ body{
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        padding: 30px 0px;
+        padding: 30px 10px;
+
     } .productos_container {
         width: 375px;
         display: flex;
@@ -509,25 +576,25 @@ body{
 
 @media (max-width: 667px) {
     .container .banner img{
-        width: 375px;
+        width: 100%;
         margin: 60px 0px 0px;
     } .servicios_container {
-        width: 375px;
+        width: 100%;
         padding: 0;
         display: flex;
         flex-direction: column;
         text-align: center;
     } .servicio1{
-        width: 375px;
+        width: 100%;
         padding: 0px 0px 35px;
         display: flex;
         flex-direction: column;        
         background-color: transparent;
         text-align: center;
     } .servicio1_1{
-        width: 375px;
+        width: 100%;
     }.servicio1_2{
-        width: 375px;
+        width: 100%;
     } .servicio1_2 img{
         width: 250px;
         padding: 35px 0px;
@@ -537,14 +604,14 @@ body{
         margin: auto;
     }    
     .servicio2{
-        width: 375px;
-        height: 950px;
+        width: 100%;
+        height: 850px;
         background-color: #440351;
         padding: 35px 0px 0px;
         display: flex;
         flex-direction: column;
     }.servicio2-container {
-        width: 375px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -565,14 +632,14 @@ body{
         padding: 30px 0px 30px;
     }
     .servicio3{
-        width: 375px;
-        height: 850px;
+        width: 100%;
+        height: 800px;
         background-color: #f09450;
         padding: 35px 0px;
         display: flex;
         flex-direction: column;
     }.servicio3_container{
-        width: 375px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         padding: 35px 0px;
@@ -585,13 +652,13 @@ body{
 
 
     .servicio4{
-        width: 375px;
+        width: 100%;
         padding: 35px 0px;
         background-color: transparent;
         display: flex;
         flex-direction: column;
     }.servicio4-container{
-        width: 375px;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -743,11 +810,11 @@ body{
         width: 100%;
         margin: 60px 0px 0px;
     } .contacto_main{
-        width: 375px;
+        width: 100%;
         background-color: #67087b;
     }
     .contacto_container{
-        width: 375px;
+        width: 100%;
         background-color: #67087b;
         display: flex;
         flex-direction: column;
@@ -814,7 +881,7 @@ body{
 
 @media (max-width: 667px) {
     .footer {
-        width: 385px;
+        width: 100%;
         height: 1100px;
         padding: 30px 0px;
         text-align: center;
@@ -843,3 +910,11 @@ body{
         padding: 10px;
     }
 }
+
+@media (max-width: 667px) {
+    p {
+        color: white;
+        font-family: "Rubik", sans-serif;
+        font-size: 15px;
+    }
+    }

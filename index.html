@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>::Pet Shop BA - Tienda de Mascotas Online::</title>
 </head>
@@ -17,9 +18,9 @@
     <div class="header">
         <div class="navbar">
             <div class="logo">
-                <img src="img/logo.png" width="50px" alt="logo" title="Pet Shop logo">
+                <img src="../img/logo.png" width="50px" alt="logo" title="Pet Shop logo">
             </div>
-            <button id="abrir" class="abrir_menu">abrir</button>
+            <button id="abrir" class="abrir_menu"><i class="bi bi-list"></i></button>
             <div class="menu" id="nav">
                 <ul class="nav-ul">
                     <li>
@@ -37,14 +38,14 @@
                     <li>
                         <a class="nav-link" href="pages/contacto.html"> CONTACTO </a>
                     </li>
+                        <button id="cerrar" class="cerrar_menu"><i class="bi bi-x-lg"></i></button>
                 </ul>
             </div>
             <div class="rss">
-                <img src="img/iconos/user.png" alt="usuario" title="Usuario" width="25px">
-                <img src="img/iconos/fav.png" alt="favoitos" title="Favoritos" width="25px">
-                <img src="img/iconos/carrito.png" alt="carrito de compras" title="Carrito de compras" width="28px">
+                <img src="../img/iconos/user.png" alt="usuario" title="Usuario" width="25px">
+                <img src="../img/iconos/fav.png" alt="favoitos" title="Favoritos" width="25px">
+                <img src="../img/iconos/carrito.png" alt="carrito de compras" title="Carrito de compras" width="28px">
             </div>
-            <button id="cerrar" class="cerrar_menu">cerrar</button>
     </div>
 </div>
 
@@ -200,8 +201,7 @@
     </div>
     
 </body>
-
+<script src="main.js"></script>
 <script>AOS.init();</script>
-
 
 </html>
