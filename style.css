@@ -736,16 +736,16 @@ body{
 
 @media (max-width: 667px) {
     .main .contacto_main .banner img{
-        width: 375px;
+        width: 100%;
         margin: 60px 0px 0px;
     }.contacto_container{
-        width: 375px;
+        width: 100%;
         background-color: #67087b;
         display: flex;
         flex-direction: column;
         padding: 35px 0px;
     } .form{
-        width: 100%;
+        width: 90%;
         background-color: #440351;
         text-align: center;
         border-radius: 15px;
