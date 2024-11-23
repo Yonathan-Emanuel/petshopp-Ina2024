@@ -375,6 +375,7 @@ body{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 15px 0px 0px;
         text-align: center;
     } .nosotros1 {
         width: 100%;
