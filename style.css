@@ -337,7 +337,7 @@ body{
 
     } .main .container {
         width: 100%;
-        height: 1823px;
+        height: 1825px;
         padding: 0;
         margin: 0;
     }
@@ -369,16 +369,16 @@ body{
         padding: 5px;
     }
 
-    .nosotros{
+    .main .nosotros{
         width: 100%;
-        height: 500px;
+        height: 450px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center;
     } .nosotros1 {
         width: 100%;
-        padding: 5px 10px 30px 10px;
+        padding: 0px 10px 60px 10px;
         margin: auto;
     } .nosotros2 {
         display: none;
